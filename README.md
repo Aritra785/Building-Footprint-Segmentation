@@ -950,6 +950,11 @@ IoU       : 0.6293
 Dice / F1 : 0.7610
 Precision : 0.7911
 Recall    : 0.7451
+```
+The most important finding from the detailed analysis is the strong dependence of detection performance on building size. Large structures are segmented reliably, while very small buildings remain substantially more difficult.
+
+This provides a clear direction for future improvements while maintaining a reproducible and interpretable segmentation workflow.
+
 
 
 ## Author
@@ -964,8 +969,3 @@ Research interests include:
 * Biomedical Signal Processing
 * Machine Learning for Healthcare
 * Biomedical Sensing
-```
-
-The most important finding from the detailed analysis is the strong dependence of detection performance on building size. Large structures are segmented reliably, while very small buildings remain substantially more difficult.
-
-This provides a clear direction for future improvements while maintaining a reproducible and interpretable segmentation workflow.
